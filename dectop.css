@@ -1,0 +1,328 @@
+body {
+  background-color: rgb(33, 33, 34);
+  width: 100%;
+  height: 200px;
+}
+
+/* colum size */
+
+.colm-mid-1 {
+  width: 8.33%;
+}
+.colm-mid-2 {
+  width: 16.66%;
+}
+.colm-mid-3 {
+  width: 25%;
+}
+.colm-mid-4 {
+  width: 33.33%;
+}
+.colm-mid-5 {
+  width: 41.66%;
+}
+.colm-mid-6 {
+  width: 50%;
+}
+.colm-mid-7 {
+  width: 58.33%;
+}
+.colm-mid-8 {
+  width: 66.66%;
+}
+.colm-mid-9 {
+  width: 75%;
+}
+.colm-mid-10 {
+  width: 83.33%;
+}
+.colm-mid-11 {
+  width: 91.66%;
+}
+.colm-mid-12 {
+  width: 100%;
+}
+
+/*  header Start Here  */
+
+.logo {
+  text-align: left;
+  padding: 10px;
+  display: flex;
+}
+
+.logo img {
+  border-radius: 25%;
+  width: 100px;
+  height: 100px;
+  margin: 0 0 0 4%;
+}
+
+.menu {
+  background: none;
+  align-items: center;
+  display: flex;
+  margin-left: 10px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu ul li {
+  display: flex;
+  align-items: center;
+}
+
+.menu ul li a {
+  font-size: 16px;
+}
+
+/* Header End Here */
+
+/* Poster Start Here */
+
+.cursor-notify {
+  display: block;
+  background: linear-gradient(to left, rgb(27, 22, 36), rgb(17, 22, 29));
+  color: red;
+  cursor: none;
+  position: relative;
+  padding: 10px;
+}
+
+.poster:hover {
+  box-shadow: 5px 5px 5px rgba(17, 17, 19);
+  transition: 0.4s;
+}
+
+.poster::after {
+  clear: both;
+}
+
+/* Poster End Here */
+
+.cards {
+  display: flex;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+#about-me::after {
+  clear: both;
+}
+
+/* About Me Start Here */
+
+#about-me {
+  padding: 0;
+  margin: 0 8.33%;
+}
+
+.about-me {
+  height: 100%;
+}
+
+.about-me h1 {
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.about-me p {
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  cursor: none;
+}
+
+/* About Me End Here */
+
+/* Skill Section Start Here */
+
+.skill:hover {
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+/* Skill Section End Here */
+
+/* Education Section Start Here */
+
+.education {
+  display: none;
+}
+
+.education-destop {
+  text-align: center;
+  display: block;
+  margin-top: -50px;
+  padding: 10%;
+}
+
+.education-destop h1 {
+  color: white;
+  text-align: center;
+}
+
+.education-table {
+  margin: 50px auto 0 auto;
+  background-color: rgba(206, 67, 183, 0.726);
+  box-shadow: 5px 5px 5px rgb(10, 10, 10, 0.5);
+
+  /* border-radius: 10px; */
+}
+
+.education-table tr {
+  color: black;
+}
+
+.education-table tr th {
+  clear: both;
+  width: 16.66%;
+  border: 1px solid rgb(6, 203, 238);
+  cursor: none;
+  padding: 10px;
+}
+
+.education-table tr td {
+  clear: both;
+  width: 16.66%;
+  border: 1px solid rgb(6, 203, 238);
+  cursor: none;
+  padding: 10px;
+}
+
+.education-table tr th:hover,
+.education-table tr td:hover {
+  box-shadow: 5px 5px 5px rgb(10, 10, 10);
+}
+
+.education-table tr:nth-child(3) td:nth-child(5):hover {
+  box-shadow: 10px 10px 10px rgb(10, 10, 10);
+}
+
+.education-table {
+  border-collapse: collapse;
+}
+
+/* Education Section End Here */
+
+/* Main End Here */
+
+/* Footer Start Here */
+
+footer {
+  display: flex;
+}
+
+footer div:nth-child(1) {
+  display: none;
+}
+
+/* Contact Me Start Here */
+
+.contact-me-dectop-top {
+  display: flex;
+}
+
+.contact-me-dectop-top h1 {
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.contact-me-dectop-top hr {
+  border-color: rgb(65, 65, 66);
+  width: 75%;
+  margin: 0 auto;
+}
+
+.contact-me-dectop-top div button {
+  margin-left: 16.66%;
+  width: 48px;
+  border: none;
+  font-size: 32px;
+  margin: 7%;
+  border-radius: 25px;
+  padding: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.contact-me-dectop-top div button:hover {
+  background-color: gray;
+}
+
+.instagram p {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  height: 40px;
+  background-position: 0%;
+}
+/* Contact Me End Here */
+
+/* Footer Menu Start Here */
+
+footer div:nth-child(2) {
+  float: left;
+  display: flex;
+}
+footer div:nth-child(3) {
+  float: right;
+  display: block;
+  position: right;
+}
+
+footer div:nth-child(3) div:nth-child(1) {
+  display: flex;
+}
+
+.contact-me-dectop-top .contact-me-dectop {
+  display: flex;
+  margin-left: -50px;
+  margin-right: 30px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-me-dectop-top div:nth-child(4) {
+  display: flex;
+  margin-left: -40px;
+  margin-right: 30px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagram-logo {
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
+
+.instagram-logo i {
+  box-sizing: border-box;
+  padding: 10% 0% 0% 0;
+}
+/* Footer Menu End Here */
+
+/* Foooter Description Start Here */
+
+
+
+
+
+/* Foooter Description End Here */
+/* Foooter End Here */
+
