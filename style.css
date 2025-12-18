@@ -53,7 +53,7 @@ body {
 /* Header Section Start Here */
 
 header {
-  display: block;
+  display: flex;
 }
 
 .logo {
@@ -65,20 +65,56 @@ header {
   border-radius: 50%;
 }
 
-.menu {
+.menu-icon{
+  margin: 10% 0 0 10%;
+}
+
+.menuhide{
+  display: none;
+}
+
+.menu{
+  display: block;
+  position: absolute;
+  font-size: 2rem;
+  z-index: 1;
+  background-color: black;
+  margin-left: -1rem;
+  width: 103%;
+  padding: 3rem;
+  box-sizing: border-box;
+  border-radius: 2rem;
+}
+
+
+.menu li{
+  list-style: none;
+  margin-top: 1rem;
+}
+.menu li a{
+  text-decoration: none;
+  color: white;
+}
+
+.menu li a:hover{
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+/* .menu {
   text-align: center;
   background-color: rgb(83, 118, 145);
   margin: 0;
   padding: 0;
   border-radius: 5px;
-}
+} */
 
-.menu ul {
+/* .menu ul {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-.menu ul li {
+} */
+/* .menu ul li {
   display: inline-block;
   text-align: center;
   margin: 5px 0;
@@ -86,41 +122,41 @@ header {
   padding: 5px 0;
   height: 40px;
   width: 70%;
-}
+} */
 
-.menu ul li a {
+/* .menu ul li a {
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 1px;
   color: white;
   text-decoration: none;
   text-align: center;
-}
+} */
 
-.menu ul li:hover {
+/* .menu ul li:hover {
   transition: 0.4s;
   background: rgb(78, 84, 88, 0.5);
   border-radius: 10px;
-}
-
+} */
+/* 
 header::after {
   clear: both;
-}
+} */
 
 /* Header Section End Here */
 
 /* Poster Section Start Here */
 
-.cursor-notify {
+/* .cursor-notify {
   display: none;
-}
+} */
 
 .poster {
   margin: -10px 0;
   border-top: 5px solid rgb(23, 15, 29);
   background-color: black;
   transform: 0.4s;
-  cursor: none;
+  /* cursor: none; */
   position: relative;
 }
 
@@ -275,7 +311,7 @@ header::after {
 
 @keyframes bootstrap {
   to {
-    width: 0%;
+    width: 50%;
   }
 }
 
