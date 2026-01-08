@@ -3,6 +3,7 @@
 ------------------------*/
 
 .nav {
+  top: 0;
   flex-direction: row-reverse;
   box-shadow: 0 5px 10px rgba(132, 116, 240, 0.4);
 }
@@ -64,3 +65,4 @@
 /*---------------------
  Hero Section Ends Here
 -----------------------*/
+
