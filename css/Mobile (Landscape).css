@@ -12,6 +12,7 @@
   margin: 2% 0 0 2%;
 }
 .nav-bar {
+  padding-top: 0;
   width: 150%;
   justify-content: space-around;
 }
@@ -64,6 +65,7 @@
 /*---------------------
  Hero Section Ends Here
 -----------------------*/
+
 
 
 
