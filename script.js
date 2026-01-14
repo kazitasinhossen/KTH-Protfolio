@@ -282,8 +282,8 @@ var textBox = document.querySelector(".text-box");
 var count = textBox.length;
 
 textBox.addEventListener("input", function () {
-  count = textBox.value.length;
   textShowe.querySelector("span").textContent = count;
 });
+
 
 
