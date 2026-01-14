@@ -274,3 +274,14 @@ contactForm.addEventListener("submit", async (e) => {
     }, 5000);
   }
 });
+
+// text counting here
+
+var textShowe = document.querySelector(".text-count");
+var textBox = document.querySelector(".text-box");
+var count = textBox.lenth;
+
+textBox.addEventListener("input", function () {
+  count = textBox.value.length;
+  textShowe.querySelector("span").textContent = count;
+});
