@@ -829,6 +829,17 @@
   box-shadow: 0 0 15px rgba(100, 118, 255, 0.2);
 }
 
+.text-count{
+  color: rgba(137, 142, 182, 0.5);
+  font-size: 1.5rem;
+  box-sizing: border-box;
+  padding-left: 1.3rem;
+}
+
+.text-count span{
+  font-size: 1.5rem;
+}
+
 .submit-btn {
   background: #6476ff;
   color: white;
@@ -965,3 +976,4 @@
 /*-----------------------
  Footer Section Ends Here 
 -------------------------*/
+
