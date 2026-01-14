@@ -279,11 +279,13 @@ contactForm.addEventListener("submit", async (e) => {
 
 var textShowe = document.querySelector(".text-count");
 var textBox = document.querySelector(".text-box");
-var count = textBox.length;
+var count = 0;
 
 textBox.addEventListener("input", function () {
+  count = textBox.value.length;
   textShowe.querySelector("span").textContent = count;
 });
+
 
 
 
